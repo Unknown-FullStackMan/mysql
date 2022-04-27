@@ -56,8 +56,8 @@ LEFT JOIN 关键字会从左表 (table_name1) 那里返回所有的行，即使�
 
 ​		sql语句：
 
-      ``` sql
-SELECT
+```sql
+  SELECT
  t1.id,
  t1.`name`,
  (
@@ -82,8 +82,7 @@ SELECT
 left JOIN t3 as t3phonenum01 ON t1.phonenum01 = t3phonenum01.id
 left JOIN t3 as t3phonenum02 ON t1.phonenum02 = t3phonenum02.id
 left JOIN t3 as t3phonenum03 ON t1.phonenum03 = t3phonenum03.id
-      ```
-
+```
 
 
 ### 综合练习
